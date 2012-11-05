@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.yammer.dropwizard</groupId>
+        <groupId>fr.figarocms.dropwizard</groupId>
         <artifactId>dropwizard-parent</artifactId>
-        <version>0.5.1</version>
+        <version>0.5.2</version>
     </parent>
 
     <artifactId>dropwizard-scala_2.9.1</artifactId>
@@ -29,7 +29,7 @@
             <version>${scala.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.yammer.dropwizard</groupId>
+            <groupId>fr.figarocms.dropwizard</groupId>
             <artifactId>dropwizard-core</artifactId>
             <version>${project.version}</version>
         </dependency>
